@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/personal.css">
     <title>Contabilidade 369</title>
 </head>
 <body>
-    <header>
-        <h1>Cavalcanti <strong>369</strong></h1>
+    <header class="container">
+        <img src="elementos/imgs/logotipo.png" alt="">
     </header>
     <main>
 
@@ -17,22 +18,32 @@
             <img class="img-responsive" src="elementos/imgs/pexels-helena-lopes-1015568.jpg" alt="Foto de Helena Lopes no Pexels">
         
             <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 data-toggle="collapse" data-target="#dsd2020">Desde 2020</h3>
+
+                <div class="panel-heading" data-toggle="collapse" data-target="#dsd" data-parent="paineis-sobre">
+                    <h3 class="panel-title" >Desde 2020</h3>
                 </div>
-                <div class="panel-body">
-                    <p id="dsd2020" class="collapse in">A Contabilidade 369, foi idealizada no ano de 2020 visto uma necessidade no mercado, um serviço feito para humanos a maior tecnologia criada até hoje, porem pela baixa qualidade de mediação de interesses foi muito mal parametrizada gerando uma sensação de impotência e desinteresse e uma enorme busca pelo serviço digital.</p>
+
+                <div  id="dsd" class="panel-body" class="collapse in">
+                    <p>A Contabilidade 369, foi idealizada no ano de 2020 visto uma necessidade no mercado, um serviço feito para humanos a maior tecnologia criada até hoje, porem pela baixa qualidade de mediação de interesses foi muito mal parametrizada gerando uma sensação de impotência e desinteresse e uma enorme busca pelo serviço digital.</p>
                 </div>
+
             </div>
 
-            <h3 data-toggle="collapse" data-target="#missao">Missão</h3>
-            <p id="missao" class="collapse in">botar para fuder.</p>
+            <div>
+                <div>
+                    <h3 data-toggle="collapse" data-target="#missao">Missão</h3>
+                </div>
+                <div>
+                    <p id="missao" class="collapse in">botar para fuder.</p>
+                </div>
+            </div>
         </div>
 
     </main>
     <footer>
         2021
     </footer>
+
     <script src="bootstrap/js/jquery.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     
