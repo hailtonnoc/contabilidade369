@@ -7,6 +7,12 @@ header
 {
     margin: 0%;
 }
+
+h2
+{
+    color: rgba(189, 30, 30, 0.81);
+}
+
 img
 {
     width: 279px;
