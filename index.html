@@ -154,8 +154,48 @@
             </div>
         </section>
 
+        <section>
+            <h2>Contato</h2>
+            <p>Entre em contato conosco</p>
+            <form>
+                <div class="form-group">
+                    <label for="contato-name">Nome:</label>
+                    <input id="contato-name" class="form-control" type="text" placeholder="seu nome">
+                </div>
+                <div class="form-group">
+                    <label for="contato-email">E-mail</label>
+                    <div class="input-group">
+                        <div class="input-group-addon">@</div>
+                        <input type="email" name="email" id="contato-email" class="form-control" placeholder="seu e-mail">
+                    </div>
+                </div>
 
-        
+                <div class="grupo-radio">
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="social">
+                            Pessoa física
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="social" id="pj">
+                            Pessoa Jurídica
+                        </label>
+                    </div>
+                </div><!--
+
+                --><select name="solicitacao" id="solicitacao" class="grupo-select form-control">
+                    <option value="" disabled selected>Atendimento</option>
+                    <option value="">Duvidas</option>
+                    <option value="">Contratação</option>
+                    <option value="">Informações</option>
+                </select>
+
+                <button type="submit" class="enviar">Enviar</button>
+
+            </form>
+        </section>
         
         
 
@@ -173,7 +213,7 @@
             cel: +55 (11) 98234-8090
         </address>
         <address>
-            E-mail: <a href="antonyscjr@gmail.com">antonyscjr@gmail.com</a>
+            E-mail: antonyscjr@gmail.com
         </address>
     </footer>
 

@@ -38,6 +38,27 @@ img
     background: whitesmoke;
 }
 
+.grupo-radio, .grupo-select
+{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.grupo-radio .radio:first-child
+{
+    margin-top: 0%;
+}
+
+.enviar
+{
+    background: darkgreen;
+    color:whitesmoke;
+    border-radius: 4.5px;
+    padding: 9px;
+    margin: 0 6px 0;
+}
+
 footer
 {
     text-align: center;
