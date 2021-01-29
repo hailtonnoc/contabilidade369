@@ -7,7 +7,7 @@ body
 
 header
 {
-    background-image: url(../../elementos/imgs/logot.png);
+    background-image: url(elementos/imgs/logot.png);
     background-size: cover;
     background-position: top center;
     height: 100%;
