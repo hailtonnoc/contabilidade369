@@ -13,9 +13,10 @@ h2
     color: rgba(189, 30, 30, 0.81);
 }
 
-img
+#logo
 {
-    width: 279px;
+    width: 81%;
+    margin:0 9%;
 }
 #imgsobre
 {
