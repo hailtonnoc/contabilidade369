@@ -5,10 +5,15 @@ body
 
 .intro
 {
-    background-image: url(elementos/imgs/logot.png);
     background-size: cover;
     background-position: top center;
     height: 100%;
+    width: 100%;
+}
+
+.navbar-default
+{
+    margin: 0;
 }
 
 h2
