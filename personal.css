@@ -1,11 +1,9 @@
-html,
 body
 {
     background: linear-gradient(rgba(31, 29, 29, 0.918), rgba(139, 0, 0, 0.952));
-    height: 100%;
 }
 
-header
+.intro
 {
     background-image: url(elementos/imgs/logot.png);
     background-size: cover;
