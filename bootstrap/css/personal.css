@@ -1,7 +1,6 @@
 html,
 body
 {
-    background: linear-gradient(rgba(31, 29, 29, 0.918), rgba(139, 0, 0, 0.952));
     height: 100%;
 }
 
@@ -11,6 +10,25 @@ header
     height: 100%;
     background-position: top center;
     background-size: 100%;
+}
+
+.banner369
+{
+    color: whitesmoke;
+    background-color: rgba(128, 128, 128, 0.151);
+    padding: 18px;
+    width: 81%;
+    border-radius: 9px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.9em;
+}
+
+.btn-369
+{
+    background: linear-gradient(to right, rgba(177, 15, 15, 0.952), rgba(122, 40, 40, 0.952));
 }
 
 .navbar-toggle.collapsed
@@ -29,6 +47,11 @@ header
 .navbar-default
 {
     margin: 0;
+}
+
+main
+{
+    background: linear-gradient(rgba(31, 29, 29, 0.918), rgba(139, 0, 0, 0.952));
 }
 
 h2
