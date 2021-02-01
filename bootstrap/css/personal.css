@@ -113,3 +113,10 @@ footer
     background: rgb(58, 58, 58);
     border-radius: 3px;
 }
+
+a:link
+{
+    color: whitesmoke;
+}
+a:visited
+{color: whitesmoke;}
