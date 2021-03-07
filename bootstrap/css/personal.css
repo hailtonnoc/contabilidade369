@@ -12,6 +12,12 @@ header
     animation: logoIntro 1.5s;
 }
 
+#nomef
+{
+    display: inline-block;
+    float: right;
+}
+
 
 /* {
     background-image: url(../../elementos/imgs/Logot.png);
