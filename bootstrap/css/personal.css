@@ -6,11 +6,19 @@ body
 
 header
 {
+    height: 100%;
+    background-size: 100%;
+    background-image: url(../../elementos/imgs/Logot.png);
+    animation: logoIntro 1.5s;
+}
+
+
+/* {
     background-image: url(../../elementos/imgs/Logot.png);
     height: 100%;
     background-position: top center;
     background-size: 100%;
-}
+} */
 
 .banner369
 {
@@ -110,7 +118,7 @@ footer
 {
     text-align: center;
     color: rgb(173, 44, 44);
-    background: rgb(58, 58, 58);
+    background: rgb(0, 0, 0);
     border-radius: 3px;
 }
 
@@ -120,3 +128,72 @@ a:link
 }
 a:visited
 {color: whitesmoke;}
+
+@keyframes logoIntro
+{
+    0%{
+        background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.9)), url(../../elementos/imgs/Logot.png);
+        height: 100%;
+        background-position: top center;
+        background-size: 100%;}
+
+    10%{
+        background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.72)), url(../../elementos/imgs/Logot.png);
+        height: 100%;
+        background-position: top center;
+        background-size: 100%;}
+
+    20%{
+        background: linear-gradient(rgba(0, 0, 0), rgba(0, 0, 0, 0.54)), url(../../elementos/imgs/Logot.png);
+        height: 100%;
+        background-position: top center;
+        background-size: 100%;}
+
+    30%{
+        background: linear-gradient(rgba(0, 0, 0), rgba(0, 0, 0, 0.36)), url(../../elementos/imgs/Logot.png);
+        height: 100%;
+        background-position: top center;
+        background-size: 100%;}
+
+    40%{
+        background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.18)), url(../../elementos/imgs/Logot.png);
+        height: 100%;
+        background-position: top center;
+        background-size: 100%;}
+        
+    50%{
+            background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.18)), url(../../elementos/imgs/Logot.png);
+            height: 100%;
+            background-position: top center;
+            background-size: 100%;}
+
+    60%{
+        background: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.18)), url(../../elementos/imgs/Logot.png);
+        height: 100%;
+        background-position: top center;
+        background-size: 100%;}
+
+    70%{
+        background: linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.45)), url(../../elementos/imgs/Logot.png);
+        height: 100%;
+        background-position: top center;
+        background-size: 100%;}
+
+    80%{
+        background: linear-gradient(rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.36)), url(../../elementos/imgs/Logot.png);
+        height: 100%;
+        background-position: top center;
+        background-size: 100%;}
+
+    90%{
+        background: linear-gradient(rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.18)), url(../../elementos/imgs/Logot.png);
+        height: 100%;
+        background-position: top center;
+        background-size: 100%;}
+        
+    100%{
+            background: linear-gradient(rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.09)), url(../../elementos/imgs/Logot.png);
+            height: 100%;
+            background-position: top center;
+            background-size: 100%;}
+}
