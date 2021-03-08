@@ -118,12 +118,16 @@ h2
 #duropreto
 {
     border-radius: 0%;
-    border: none;
 }
 #preto
 {
     background: black;
     border: none;
+}
+
+.form-control
+{
+    border-radius: 0%;
 }
 
 footer
