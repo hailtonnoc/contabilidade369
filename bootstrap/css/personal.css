@@ -9,7 +9,7 @@ header
     height: 100%;
     background-size: 100%;
     background-image: url(../../elementos/imgs/Logot.png);
-    animation: logoIntro 1.5s;
+    animation: logoIntro .72s alternate-reverse 4;
 }
 
 #nomef
