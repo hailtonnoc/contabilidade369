@@ -119,13 +119,19 @@ h2
 {
     border-radius: 0%;
 }
+
+#durop
+{
+    border: none;
+}
+
 #preto
 {
     background: black;
     border: none;
 }
 
-.form-control
+.form-control, .thumbnail
 {
     border-radius: 0%;
 }
