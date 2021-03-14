@@ -230,7 +230,7 @@ a:visited
         background-position: center;
         background-color: black;
         background-image: url(../../elementos/imgs/Logot.png);
-        animation: logoIntro .72s alternate-reverse 2;
+        animation: logoIntro .9s alternate;
         animation-delay: .9s;
     }
 
@@ -280,21 +280,21 @@ a:visited
 
     60%{
         background: linear-gradient(rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.27)), url(../../elementos/imgs/Logot.png);
-        background-size: 54%;
+        background-size: 57%;
         background-repeat: no-repeat;
         background-position: center;
         background-color: black;}
 
     70%{
         background: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.18)), url(../../elementos/imgs/Logot.png);
-        background-size: 54%;
+        background-size: 60%;
         background-repeat: no-repeat;
         background-position: center;
         background-color: black;}
 
     80%{
         background: linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.09)), url(../../elementos/imgs/Logot.png);
-        background-size: 54%;
+        background-size: 60%;
         background-repeat: no-repeat;
         background-position: center;
         background-color: black;}
@@ -302,7 +302,7 @@ a:visited
     90%{
         background: linear-gradient(rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0)), url(../../elementos/imgs/Logot.png);
         height: 100%;
-        background-size: 60%;
+        background-size: 57%;
         background-repeat: no-repeat;
         background-position: center;
         background-color: black;}
@@ -310,7 +310,7 @@ a:visited
     100%{
             background: linear-gradient(rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.09)), url(../../elementos/imgs/Logot.png);
             height: 100%;
-            background-size: 63%;
+            background-size: 54%;
             background-repeat: no-repeat;
             background-position: center;
             background-color: black;}
