@@ -70,7 +70,18 @@ main
 
 h2
 {
-    color: rgba(189, 30, 30, 0.81);
+    font-family: 'Prata', serif;
+    color: rgba(0, 0, 0, 0.81);
+    font-size: 3.69em;
+    font-weight:500;
+}
+
+.panel-title
+{
+    font-family: 'Prata', serif;
+    color: rgba(0, 0, 0, 0.81);
+    font-size: 1.38em;
+    font-weight:500;
 }
 
 #logo
