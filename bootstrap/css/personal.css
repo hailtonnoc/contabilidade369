@@ -9,7 +9,7 @@ header
     height: 100%;
     background-size: 100%;
     background-image: url(../../elementos/imgs/Logot.png);
-    animation: logoIntro .9s alternate-reverse 2;
+    animation: logoIntro .72s alternate-reverse 2;
     animation-delay: .9s;
 }
 
@@ -217,4 +217,111 @@ a:visited
             height: 100%;
             background-position: top center;
             background-size: 100%;}
+}
+
+
+@media (min-width: 630px), (min-height: 720px)
+{
+    header
+    {
+        height: 100%;
+        background-size: 72%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: black;
+        background-image: url(../../elementos/imgs/Logot.png);
+        animation: logoIntro .72s alternate-reverse 2;
+        animation-delay: .9s;
+    }
+
+    @keyframes logoIntro
+{
+    0%{
+        background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.9)), url(../../elementos/imgs/Logot.png);
+        height: 100%;
+        background-size: 72%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: black;}
+
+    10%{
+        background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.81)), url(../../elementos/imgs/Logot.png);
+        height: 100%;
+        background-size: 72%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: black;}
+
+    20%{
+        background: linear-gradient(rgba(0, 0, 0), rgba(0, 0, 0, 0.72)), url(../../elementos/imgs/Logot.png);
+        height: 100%;
+        background-size: 72%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: black;}
+
+    30%{
+        background: linear-gradient(rgba(0, 0, 0), rgba(0, 0, 0, 0.63)), url(../../elementos/imgs/Logot.png);
+        height: 100%;
+        background-size: 72%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: black;}
+
+    40%{
+        background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.54)), url(../../elementos/imgs/Logot.png);
+        height: 100%;
+        background-size: 72%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: black;}
+        
+    50%{
+            background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.36)), url(../../elementos/imgs/Logot.png);
+            height: 100%;
+            background-size: 72%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: black;}
+
+    60%{
+        background: linear-gradient(rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.27)), url(../../elementos/imgs/Logot.png);
+        height: 100%;
+        background-size: 72%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: black;}
+
+    70%{
+        background: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.18)), url(../../elementos/imgs/Logot.png);
+        height: 100%;
+        background-size: 72%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: black;}
+
+    80%{
+        background: linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.09)), url(../../elementos/imgs/Logot.png);
+        height: 100%;
+        background-size: 72%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: black;}
+
+    90%{
+        background: linear-gradient(rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0)), url(../../elementos/imgs/Logot.png);
+        height: 100%;
+        background-size: 72%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: black;}
+        
+    100%{
+            background: linear-gradient(rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.09)), url(../../elementos/imgs/Logot.png);
+            height: 100%;
+            background-size: 72%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: black;}
+}
 }
