@@ -109,6 +109,11 @@ h2
     background: whitesmoke;
 }
 
+#contato
+{
+    padding: 0% 1.5%;
+}
+
 .grupo-radio, .grupo-select
 {
     display: inline-block;
