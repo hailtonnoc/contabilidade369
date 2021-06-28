@@ -135,9 +135,9 @@ h2
 .links a img
 {
     display: inline;
-    margin: 1.2% 1.2%;
+    margin: 1.2% .3%;
     border-radius: 50%;
-    width: 108px;
+    width: 99px;
 }
 
 .grupo-radio, .grupo-select
