@@ -119,6 +119,11 @@ h2
     padding: 0% 1.5%;
 }
 
+.links a img
+{
+    margin: 0% 3%;
+}
+
 .grupo-radio, .grupo-select
 {
     display: inline-block;
