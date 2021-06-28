@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 html,
 body
 {
@@ -26,6 +27,18 @@ header
 #nomePrincipal
 {
     margin: 0%;
+}
+
+.nomeprincipal
+{
+    font-family: 'Allura', cursive;
+    color: #ad2c2c;
+    font-size: 3em;
+}
+.nomeprincipal i small
+{
+    font-family: 'Allura', cursive;
+    color: #ad2c2c;
 }
 
 
@@ -121,7 +134,10 @@ h2
 
 .links a img
 {
-    margin: 0% 3%;
+    display: inline;
+    margin: 1.2% 1.8%;
+    border-radius: 50%;
+    width: 108px;
 }
 
 .grupo-radio, .grupo-select
@@ -169,7 +185,7 @@ h2
 footer
 {
     text-align: center;
-    color: rgb(173, 44, 44);
+    color: #ad2c2c;
     background: rgb(0, 0, 0);
     padding: 1.5%;
 }
@@ -368,7 +384,12 @@ a:visited
             background-color: black;}
 }
 
-
+.links a img
+{
+    margin: 1.5% 5.4%;
+    border-radius: 50%;
+    width: 180px;
+}
 
 }
 
@@ -523,6 +544,13 @@ a:visited
         grid-column: 3/3;
         margin: .3%;
     }
+
+    .links a img
+{
+    margin: 1.8% 9%;
+    border-radius: 50%;
+    width: 180px;
+}
 
     .panel-heading
     {
