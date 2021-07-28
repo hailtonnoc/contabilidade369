@@ -426,7 +426,7 @@ a:visited
 /*___________________________________________________________________________________menu*/
     .menu
     {
-        width: 45vh;
+        width: 45vw;
         padding: 1%;
         position: absolute;
         left: 50%;
@@ -545,7 +545,7 @@ a:visited
     {
         display: inline-block;
         width: 540px;
-        margin: 0 9%;
+        margin: 0 3%;
     }
 
     .links a img
@@ -654,6 +654,13 @@ a:visited
             background-color: black;}
 }
 /*___________________________________________________________________________________menu*/
+.menu
+{
+    width: 45vw;
+    padding: 1%;
+    position:absolute;
+    left:50%;
+}
 
 .menu >span
 {
