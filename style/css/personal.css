@@ -559,6 +559,11 @@ a:visited
         margin: 0% auto;
     }
 
+    .links a img:hover
+    {
+        width: 96px;
+    }
+
     .links a img
     {
         margin: 1.8% 7.2%;
