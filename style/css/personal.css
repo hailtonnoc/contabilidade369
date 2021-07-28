@@ -521,14 +521,18 @@ a:visited
     /*_______________________________________________________________________________cards*/
     #proserv, #serv
     {
-        margin: 6%;
+        display: block;
+        max-width: 693px;
+        margin: 0% auto;
     }
 
     .cardDuro
     {
         display: inline-block;
-        width: 360px;
-        margin: 3%;
+        vertical-align: top;
+        height: 433px;
+        width: 270px;
+        margin: 1% auto;
     }
 
     .cardExpand-body
@@ -543,9 +547,9 @@ a:visited
     /*_______________________________________________________________________________rodape*/
     .links
     {
-        display: inline-block;
+        display: block;
         width: 540px;
-        margin: 0 3%;
+        margin: 0% auto;
     }
 
     .links a img
