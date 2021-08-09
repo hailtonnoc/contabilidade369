@@ -17,6 +17,7 @@ body
 {
     height: 100%;
     margin: 0%;
+    background: linear-gradient(to right, #BC272D 18%, #67272D);
 }
 
 h2
@@ -75,7 +76,7 @@ ul
 {
     display: inline-block;
     position: relative;
-    left: 72%;
+    left: 81%;
 }
 
 .menuContent
@@ -100,11 +101,13 @@ ul
 .banner369
 {
     color: whitesmoke;
-    background-color: rgba(128, 128, 128, 0.151);
+    background-color: #80808027;
     padding: 9px;
-    width: 81%;
+    padding-bottom: 0px;
+    width: 69%;
+    height: 18vh;
     position: absolute;
-    top: 84.9%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 0.9em;
@@ -588,6 +591,12 @@ a:visited
         animation-delay: .9s;
     }
 
+    section
+    {
+        max-width: 1008px;
+        margin: auto;
+    }
+
     @keyframes logoIntro
 {
     0%{
@@ -672,10 +681,10 @@ a:visited
 /*___________________________________________________________________________________menu*/
 .menu
 {
-    width: 45vw;
+    width: 300px;
     padding: 1%;
     position:absolute;
-    left:50%;
+    left: 72%;
 }
 
 .menu >span
