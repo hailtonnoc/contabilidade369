@@ -821,13 +821,22 @@ a:visited
         margin: 0% 9%;
     }
 
+    .cardExpand-body
+    {
+        padding: 3%;
+        background-color: #ffffff;
+        display: none;
+        position: absolute;
+        right: 6%;
+        width: 21%;
+    }
+
     .cardDuro
     {
-        display: inline-block;
         vertical-align: top;
-        height: 450px;
+        height: 405px;
         width: 360px;
-        margin: 1% auto;
+        margin: 1% 3%;
     }
 
     /*_______________________________________________________________________________rodape*/
