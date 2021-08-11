@@ -81,7 +81,7 @@ ul
 {
     display: inline-block;
     position: relative;
-    left: 81%;
+    left: 80.1%;
 }
 
 .menuContent
@@ -164,7 +164,7 @@ ul
 /* __________________________________________________________________________cards */
 .cardExpand
 {
-    margin: 3% auto;
+    margin: 3% 0%;
     width: 99%;
 }
 
