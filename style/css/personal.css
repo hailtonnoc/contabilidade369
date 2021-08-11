@@ -358,6 +358,11 @@ a:visited
         animation-delay: .9s;
     }
 
+    nav
+    {
+        max-width: 300px;
+    }
+
     @keyframes logoIntro
 {
     0%{
@@ -598,6 +603,11 @@ a:visited
         animation-delay: .9s;
     }
 
+    nav
+    {
+        max-width: 300px;
+    }
+
     section
     {
         max-width: 1008px;
@@ -688,8 +698,8 @@ a:visited
 /*___________________________________________________________________________________menu*/
 .menu
 {
-    width: 300px;
-    padding: 1%;
+    width: 270px;
+    padding: 1.5% 0%;
     position:absolute;
     left: 72%;
 }
