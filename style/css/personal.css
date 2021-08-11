@@ -1,3 +1,26 @@
+
+html::-webkit-scrollbar
+{
+    width: 9px;
+}
+
+html::-webkit-scrollbar-track
+{
+    background-color: rgb(0, 0, 0);
+}
+
+html::-webkit-scrollbar-thumb
+{
+    background: #67272D;
+    border-radius: 0px;
+    height: 3px;
+}
+
+html::-webkit-scrollbar-thumb:hover
+{
+    background:#BC272D
+}
+
 /* ____________________________________________________________________max-320-width */
 
 address
@@ -31,7 +54,7 @@ h2
     color: rgba(0, 0, 0, 0.81);
     font-size: 1.8em;
     font-weight:500;
-    margin-top: 0%;
+    margin-top: 1%;
 }
 
 h3
