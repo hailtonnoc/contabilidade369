@@ -1,5 +1,10 @@
 /* ____________________________________________________________________max-320-width */
 
+address
+{
+    font-style:normal;
+}
+
 header
 {
     height: 100%;
@@ -197,6 +202,7 @@ ul
     background-color: #ffffff;
     width: 81%;
     padding: 1%;
+    box-shadow: rgba(0, 0, 0, 0.527) 6px 6px 4.5px;
 }
 
 .cardDuro-body
