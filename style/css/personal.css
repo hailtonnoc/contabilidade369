@@ -22,6 +22,22 @@ html::-webkit-scrollbar-thumb:hover
 }
 
 /* ____________________________________________________________________max-320-width */
+/* Defina a animação */
+@keyframes fadeIn {
+from { opacity: 0; }
+to { opacity: 1; }
+}
+
+p, h1, h2, h3{
+    animation-name: fadeIn;
+    animation-duration: 1.8s;
+    animation-fill-mode: forwards;
+}
+/* Ajuste o atraso para cada elemento com :nth-child */
+p:nth-child(1) { animation-delay: 0s; } /* Primeiro elemento sem atraso */
+p:nth-child(2) { animation-delay: 0.3s; } /* Segundo elemento com atraso de 0.2s */
+/* ... e assim por diante para cada elemento */
+
 
 address
 {
@@ -167,6 +183,18 @@ ul
     font-size: 1.38em;
     font-weight:500;
 }
+
+.sobre{
+    margin-bottom: 9%;
+}
+
+.sobre > div{
+    color: black;
+    background-color: #ffffff;
+    padding: 3%;
+    margin: 1.5%;
+}
+
 /* __________________________________________________________________________poster */
 .poster
 {
@@ -237,14 +265,6 @@ ul
     width:100%;
     height: 48%
 }
-
-.sobre > div{
-    color: black;
-    background-color: #ffffff;
-    padding: 3%;
-    margin: 1.5%;
-}
-
 #servico{
     color: #ffffff;
     text-align: center;
@@ -253,6 +273,22 @@ ul
 #servico > h2{
     color: #ffffff;
 }
+
+.download{
+    width: 40%;
+    margin: 1%;
+}
+
+/* __________________________________________________________________________________Material */
+.material{
+    padding: 3%;
+    background-color: #ffffff;
+    width: 90%;
+    left: -30%;
+    margin-bottom: 6%;
+}
+
+
 
 /* __________________________________________________________________________________Rodape */
 
