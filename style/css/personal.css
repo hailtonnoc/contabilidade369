@@ -291,7 +291,14 @@ ul
 
 
 /* __________________________________________________________________________________Rodape */
-#contato{color: #ffffff;}
+#contato{color: #ffffff;
+}
+
+.contato
+{
+    text-align: center;
+    color: #ffffff;
+}
 
 .links
 {
@@ -551,7 +558,20 @@ a:visited
         transition-duration: .6s;
     }
 
-
+    .banner369
+    {
+        color: whitesmoke;
+        background-color: #80808027;
+        padding: 1%;
+        padding-bottom: 0px;
+        width: 69%;
+        height: 18vh;
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 0.9em;
+    }
 
 /*__________________________________________________________________________________sobre*/
     .poster{
@@ -725,35 +745,35 @@ a:visited
             background-color: black;}
 }
 /*___________________________________________________________________________________menu*/
-.menu
-{
-    width: 270px;
-    padding: 1.5% 0%;
-    position:absolute;
-    left: 72%;
-}
+    .menu
+    {
+        width: 270px;
+        padding: 1.5% 0%;
+        position:absolute;
+        left: 72%;
+    }
 
-.menu >span
-{
-    display: none;
-}
+    .menu >span
+    {
+        display: none;
+    }
 
-.menuContent
-{
-    display: block;
-}
-.menuContent > li
-{
-    padding: 1.08%;
-    display: inline-block;
-    margin: 1%;
-}
+    .menuContent
+    {
+        display: block;
+    }
+    .menuContent > li
+    {
+        padding: 1.08%;
+        display: inline-block;
+        margin: 1%;
+    }
 
-.menuContent > li:hover
-{
-    font-size: 1.17em;
-    transition-duration: .6s;
-}
+    .menuContent > li:hover
+    {
+        font-size: 1.17em;
+        transition-duration: .6s;
+    }
 
 
 
