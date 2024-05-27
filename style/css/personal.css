@@ -146,12 +146,14 @@ ul
 {
     color: whitesmoke;
     background-color: #80808027;
-    padding: 9px;
+    padding: 1%;
+    padding-left: 6%;
+    padding-right: 6%;
     padding-bottom: 0px;
-    width: 69%;
+    width: 84%;
     height: 18vh;
     position: absolute;
-    top: 84%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 0.9em;
@@ -172,7 +174,7 @@ ul
 {
     display: inline-block;
     float: right;
-    margin: 5.4%;
+    margin: 1%;
 }
 
 /* _________________________________________________________________________________sobre */
@@ -565,9 +567,9 @@ a:visited
         padding: 1%;
         padding-bottom: 0px;
         width: 69%;
-        height: 18vh;
+        height: 12vh;
         position: absolute;
-        top: 90%;
+        top: 93%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 0.9em;
