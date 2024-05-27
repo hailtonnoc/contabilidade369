@@ -105,7 +105,6 @@ ul
 {
     display: inline-block;
     position: relative;
-    left: 80.1%;
 }
 
 .menuContent
@@ -279,7 +278,7 @@ footer
     color: #ad2c2c;
     background: rgb(0, 0, 0);
     padding: 1.5%;
-    margin-top: 33%;
+    margin-top: 39%;
 }
 
 a:link
