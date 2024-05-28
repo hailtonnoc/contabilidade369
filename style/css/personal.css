@@ -294,6 +294,7 @@ ul
 
 /* __________________________________________________________________________________Rodape */
 #contato{color: #ffffff;
+    text-align: center;
 }
 
 .contato
@@ -308,6 +309,8 @@ ul
     width: 300px;
     margin: 0% auto;
     position: absolute;
+    left: 18%;
+
 }
 
 .links a img
@@ -316,6 +319,7 @@ ul
     margin: 1.2% .3%;
     border-radius: 50%;
     width: 90px;
+
 }
 
 footer
@@ -325,7 +329,15 @@ footer
     background: rgb(0, 0, 0);
     padding: 1.5%;
     margin-top: 39%;
+    display: block;
 }
+
+footer img
+{
+    width: 30%;
+}
+
+
 
 a:link
 {
@@ -616,6 +628,21 @@ a:visited
     /*_______________________________________________________________________________rodape*/
     footer{
     margin-top: 15%;
+    display: flex;
+    }
+
+    .nomes{
+        margin-left: 33%;
+    }
+
+    footer img{
+        width: 42%;
+    }
+
+    .qrcode{
+        text-align: right;
+        width: 300px;
+        margin-left: 9%;
     }
 
     .links
@@ -627,7 +654,7 @@ a:visited
 
     .links a img:hover
     {
-        width: 96px;
+        width: 93px;
     }
 
     .links a img
@@ -815,9 +842,7 @@ a:visited
     /*_______________________________________________________________________________rodape*/
     .links
     {
-        display: inline-block;
-        width: 540px;
-        margin: 0 21%;
+        left: 30%;
     }
 
     .links a img
