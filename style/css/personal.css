@@ -466,7 +466,7 @@ transition: transform 1.2s ease; /* Adiciona transição suave */
 }
 
 .carousel-item {
-width: 99vw; /* Cada item ocupa 100% da largura da viewport */
+width: 100vw; /* Cada item ocupa 100% da largura da viewport */
 display: inline-block;
 justify-content: center;
 align-items: center;
@@ -475,9 +475,12 @@ box-shadow: rgba(0, 0, 0, 0.527) 6px 6px 4.5px;
 font-size: 1em;
 flex-shrink: 0;
 color: black;
-padding: 1vh;
-padding-top: 3vh;
-padding-left: 1vw;
+
+}
+
+.carousel-item *
+{
+    padding-left: 3%;
 }
 
 .carousel-item a {
