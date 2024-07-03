@@ -654,7 +654,6 @@ padding-top: 3%;
 
 /*__________________________________________________________________________________sobre*/
     .poster{
-        display: flex;
     }
     .txt_sobre{
         padding: 3%;
@@ -741,7 +740,7 @@ padding-top: 3%;
 }
 
 
-@media (min-width: 999px)
+@media (min-width: 900px)
 {
     header
     {
@@ -921,6 +920,12 @@ padding-top: 3%;
         width: 90px;
         margin-left: 8.7%;
     }
+
+    .poster
+    {
+        display: flex;
+    }
+
 
 
 }
