@@ -487,7 +487,7 @@ padding-left: 1vw;
 }
 
 .carousel-item p {
-    width: 66%;
+    width: 90%;
 }
 
 
@@ -729,6 +729,10 @@ padding-left: 1vw;
     .material li
     {
         margin-top: 6%;
+    }
+
+    .carousel-item p {
+        width: 66%;
     }
 
 }
