@@ -9,7 +9,6 @@ let timeoutId;
 function moveCarousel() {
     const offset = -currentIndex * 100;
     carousel.style.transform = `translateX(${offset}vw)`;
-
     timeoutId = setTimeout(() => {
     currentIndex = (currentIndex + 1) % totalItems;
     moveCarousel();
@@ -36,7 +35,6 @@ function handleTouchMove(event) {
     if (!touchStartX) {
     return;
     }
-
     touchEndX = event.touches[0].clientX;
 }
 
@@ -44,15 +42,12 @@ function handleTouchEnd() {
     if (!touchStartX || !touchEndX) {
     return;
     }
-
     const diffX = touchStartX - touchEndX;
-
     if (diffX > 50) {
     nextItem(); // Swipe left
     } else if (diffX < -50) {
     prevItem(); // Swipe right
     }
-
     touchStartX = null;
     touchEndX = null;
 }
@@ -61,7 +56,6 @@ function handleTouchEnd() {
 document.addEventListener('click', (event) => {
     const rect = document.body.getBoundingClientRect();
     const clickX = event.clientX - rect.left;
-
     if (clickX < rect.width / 2) {
     prevItem();
     } else {
