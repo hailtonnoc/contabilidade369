@@ -88,6 +88,11 @@ main
     background: linear-gradient(to right, #BC272D 18%, #67272D);
 }
 
+mark{
+    background-color:#bc272ce3;
+    color: #ffffff;
+}
+
 span
 {
     color: white;
@@ -271,6 +276,7 @@ ul
     color: #ffffff;
     text-align: center;
     padding: 9%;
+    padding-top: 2%;
 }
 #servico > h2{
     color: #ffffff;
@@ -338,6 +344,13 @@ footer img
     width: 30%;
 }
 
+.hailton
+{
+    background-color: black;
+    margin: 0%;
+    font: smaller;
+    font-size: small;
+}
 
 
 a:link
@@ -437,6 +450,54 @@ a:visited
             background-repeat: no-repeat;
             background-position: center;
             background-color: black;;}
+}
+
+.carousel-container {
+width: 100%;
+overflow: hidden;
+position: relative;
+margin: 1%;
+margin-left: 0%;
+color: #ffffff;
+}
+
+.carousel {
+display: flex;
+transition: transform 1.2s ease; /* Adiciona transição suave */
+}
+
+.carousel-item {
+width: 99vw; /* Cada item ocupa 100% da largura da viewport */
+display: inline-block;
+justify-content: center;
+align-items: center;
+background-color: #ffffff;
+box-shadow: rgba(0, 0, 0, 0.527) 6px 6px 4.5px;
+font-size: 1em;
+flex-shrink: 0;
+color: black;
+padding: 1vh;
+padding-top: 3vh;
+padding-left: 1vw;
+}
+
+.carousel-item a {
+    color: black;
+    font-weight: bolder;
+}
+
+.carousel-item p {
+    width: 66%;
+}
+
+
+@keyframes scroll {
+    0% {
+    transform: translateX(0);
+    }
+    100% {
+    transform: translateX(-100%);
+    }
 }
 
 /*____________________________________________________________________________Outras telas */
