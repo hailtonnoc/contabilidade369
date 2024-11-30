@@ -74,3 +74,14 @@ carousel.addEventListener('touchend', handleTouchEnd, false);
 // Inicia o carrossel
 moveCarousel();
 });
+
+const button = document.querySelector('.crc');
+button.addEventListener('click', () => {
+navigator.clipboard.writeText('1SP336879')
+    .then(() => {
+        console.log('Texto copiado com sucesso!');
+    })
+    .catch(err => {
+        console.error('Falha ao copiar o texto: ', err);
+    });
+});
