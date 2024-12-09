@@ -197,7 +197,7 @@ ul
 .sobre > div{
     color: black;
     background-color: #ffffff;
-    padding: 3%;
+    padding: 1.5%;
     margin: 1.5%;
 }
 
@@ -206,12 +206,13 @@ ul
 {
     background-color: #ffffff;
     padding: 6%;
+    padding-left: 0%;
     font-size: 1.41em;
     text-align: center;
 }
 
 .poster > img {
-    width: 100%;
+    width: 54%;
 }
 
 /* __________________________________________________________________________cards */
