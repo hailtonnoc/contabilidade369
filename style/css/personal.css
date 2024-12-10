@@ -57,7 +57,8 @@ header
 
 .video-container {
     top: 0%;
-    width: 100%;
+    margin: auto;
+    width: 96%;
     height: 100%;
     overflow: hidden;
 }
