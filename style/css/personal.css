@@ -46,12 +46,12 @@ address
 header
 {
     height: 100%;
-    background-image: url(../../elementos/imgs/Logot.png);
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
     background-color: black;
     /*animation: logoIntro .9s alternate;
+    background-image: url(../../elementos/imgs/Logot.png);
     animation-delay: .9s;*/
 }
 
