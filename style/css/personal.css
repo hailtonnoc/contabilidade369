@@ -51,22 +51,24 @@ header
     background-repeat: no-repeat;
     background-position: center;
     background-color: black;
-    animation: logoIntro .9s alternate;
-    animation-delay: .9s;
+    /*animation: logoIntro .9s alternate;
+    animation-delay: .9s;*/
 }
 
 .video-container {
     top: 0%;
     margin: auto;
-    width: 96%;
+    width: 100%;
     height: 100%;
     overflow: hidden;
 }
 
 video {
-object-fit: cover;
+position: relative;
+z-index: 0;
+top: -9%;
 width: 100%;
-height: 99%;
+height: 100%;
 }
 
 html,
@@ -139,6 +141,7 @@ ul
 {
     display: inline-block;
     position: relative;
+    z-index: 1;
 }
 
 .menuContent
@@ -533,9 +536,9 @@ padding-top: 3%;
         background-repeat: no-repeat;
         background-position: center;
         background-color: black;
-        background-image: url(../../elementos/imgs/Logot.png);
+        /*background-image: url(../../elementos/imgs/Logot.png);
         animation: logoIntro .9s alternate;
-        animation-delay: .9s;
+        animation-delay: .9s;*/
     }
 
     nav
@@ -776,9 +779,9 @@ padding-top: 3%;
         background-repeat: no-repeat;
         background-position: center;
         background-color: black;
-        background-image: url(../../elementos/imgs/Logot.png);
+        /*background-image: url(../../elementos/imgs/Logot.png);
         animation: logoIntro .9s alternate;
-        animation-delay: .9s;
+        animation-delay: .9s;*/
     }
 
     nav
