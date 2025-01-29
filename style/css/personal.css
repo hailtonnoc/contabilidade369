@@ -314,6 +314,35 @@ ul
     margin-bottom: 6%;
 }
 
+/* _________________________________________________________________________________sobre Tonys */
+.sobreTonhao {
+    margin-top: 12%;
+    width: 99.9%;
+    color: black;
+    background-color: #ffffff;
+}
+
+.sobreTonhao > h3 {
+    color: white;
+    background-color: #00000091;
+    position: absolute;
+    left: 15%;
+    margin-top: 4.5%;
+    padding: 3%;
+    border-radius: 12px;
+    font-size: 180%;
+}
+
+.Tony {
+    width: 100%;
+}
+
+.txt_sobreTony{
+    margin: 6%;
+    padding-bottom: 2.4%;
+}
+
+
 
 
 /* __________________________________________________________________________________Rodape */
@@ -721,6 +750,30 @@ padding-top: 3%;
     width: 27%;
 }
 
+/* _________________________________________________________________________________sobre Tonys */
+.sobreTonhao {
+    padding-top: 2.4%;
+    text-align: center;
+}
+
+.sobreTonhao > h3 {
+    left: 30%;
+}
+
+.Tony {
+    width: 60%;
+}
+
+.txt_sobreTony{
+    margin: 6%;
+    padding-bottom: 2.4%;
+}
+
+
+
+
+
+
     /*_______________________________________________________________________________rodape*/
     footer{
     margin-top: 15%;
@@ -938,6 +991,31 @@ padding-top: 3%;
         width: 312px;
         margin: .5% .5%;
     }
+
+    /* _________________________________________________________________________________sobre Tonys */
+    .sobreTonhao {
+
+        padding-top: 2.4%;
+        text-align: center;
+    }
+
+    .sobreTonhao > h3 {
+        margin: 1.5%;
+        left: 39%;
+    }
+
+    .Tony {
+        width: 40%;
+    }
+
+    .txt_sobreTony{
+        margin: 3%;
+        padding-bottom: 2.4%;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+
 
     /*_______________________________________________________________________________rodape*/
     .links
