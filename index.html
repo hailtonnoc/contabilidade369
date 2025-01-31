@@ -14,10 +14,23 @@
 
         gtag('config', 'G-CWTGMG88BJ');
     </script>
-    <!-- Event snippet for Contato conversion page -->
-    <script>
-        gtag('event', 'conversion', {'send_to': 'AW-16845606314/K8pNCOa4yZcaEKqbzuA-'});
+<!-- Event snippet for Contato conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+        function gtag_report_conversion(url) {
+        var callback = function () {
+            if (typeof(url) != 'undefined') {
+            window.location = url;
+            }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-16845606314/K8pNCOa4yZcaEKqbzuA-',
+            'event_callback': callback
+        });
+        return false;
+        }
     </script>
+    
     <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
