@@ -80,6 +80,7 @@ body
     font-size: 13pt;
 }
 
+
 h2
 {
     font-family: 'Prata', serif;
@@ -134,6 +135,22 @@ ul
     font-family: 'Prata', serif;
     color: #ad2c2c;
 }
+
+.fixzap
+{
+    position: fixed;
+    left: 90%;
+    top: 87%;
+    z-index: 100;
+}
+
+.fixzap img
+{
+    border-radius: 50%;
+    width: 54% ;
+}
+
+
 
 
 /* __________________________________________________________________________________menu */
