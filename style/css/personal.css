@@ -139,15 +139,16 @@ ul
 .fixzap
 {
     position: fixed;
-    left: 90%;
-    top: 87%;
-    z-index: 100;
+    left: 84%;
+    top: 84%;
+    z-index: 1;
 }
 
 .fixzap img
 {
     border-radius: 50%;
-    width: 54% ;
+    width: 84% ;
+    opacity: 84%;
 }
 
 
@@ -195,6 +196,7 @@ ul
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 0.9em;
+    z-index: 2;
 }
 
 .btn369
@@ -365,28 +367,25 @@ ul
 /* __________________________________________________________________________________Rodape */
 #contato{color: #ffffff;
     text-align: center;
+    align-items: center;
 }
 
 .contato
 {
-    text-align: center;
     color: #ffffff;
 }
 
 .links
 {
-    display: block;
+    display: inline;
     width: 300px;
-    margin: 0% auto;
-    position: absolute;
-    left: 10%;
-
+    align-items: center;
 }
 
 .links a img
 {
     display: inline;
-    margin: 1.2% .3%;
+    margin: .9%;
     border-radius: 50%;
     width: 90px;
 
@@ -398,7 +397,7 @@ footer
     color: #ad2c2c;
     background: rgb(0, 0, 0);
     padding: 1.5%;
-    margin-top: 39%;
+    margin-top: 15%;
     display: block;
 }
 
@@ -982,7 +981,21 @@ padding-top: 3%;
 
 
 /*__________________________________________________________________________________sobre*/
-
+    
+    .fixzap
+    {
+        position: fixed;
+        left: 90%;
+        top: 87%;
+        z-index: 100;
+    }
+    
+    
+    .fixzap img
+    {
+        border-radius: 50%;
+        width: 54% ;
+    }
     /*_______________________________________________________________________________cards*/
     #proserv, #serv
     {
