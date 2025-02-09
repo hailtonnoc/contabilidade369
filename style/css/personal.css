@@ -380,6 +380,7 @@ ul
     display: inline;
     width: 300px;
     align-items: center;
+    z-index: 100;
 }
 
 .links a img
@@ -388,6 +389,7 @@ ul
     margin: .9%;
     border-radius: 50%;
     width: 90px;
+    position: relative;
 
 }
 
