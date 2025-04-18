@@ -433,6 +433,7 @@ ul
 
 .links a img:hover {
     transform: scale(1.2);
+    animation: pulse 2s infinite;
 }
 
 footer
