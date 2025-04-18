@@ -149,10 +149,20 @@ ul
     border-radius: 50%;
     width: 84% ;
     opacity: 84%;
+    animation: pulse 2s infinite;
 }
 
-
-
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(188, 39, 45, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 20px rgba(188, 39, 45, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(188, 39, 45, 0);
+    }
+}
 
 /* __________________________________________________________________________________menu */
 .menu
@@ -361,9 +371,6 @@ ul
     padding-bottom: 2.4%;
 }
 
-
-
-
 /* __________________________________________________________________________________Rodape */
 #contato{color: #ffffff;
     text-align: center;
@@ -377,20 +384,41 @@ ul
 
 .links
 {
-    display: inline;
-    width: 300px;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
+    gap: 2rem;
+    width: 100%;
+    max-width: 540px;
+    margin: 2rem auto;
+    padding: 10px 0;
+    height: 100px; /* altura fixa para evitar shift */
     z-index: 100;
+}
+
+.links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
 }
 
 .links a img
 {
-    display: inline;
-    margin: .9%;
+    margin: 0;
     border-radius: 50%;
     width: 90px;
+    height: 90px;
     position: relative;
+    transition: transform 0.3s ease;
+    /* Mantém o centro ao animar */
+    transform-origin: center center;
+}
 
+.links a img:hover {
+    transform: scale(1.2);
 }
 
 footer
@@ -399,7 +427,7 @@ footer
     color: #ad2c2c;
     background: rgb(0, 0, 0);
     padding: 1.5%;
-    margin-top: 15%;
+    margin-top: 9%;
     display: block;
 }
 
@@ -768,6 +796,28 @@ padding-top: 3%;
     width: 27%;
 }
 
+    .links {
+        display: flex !important;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 540px;
+        margin: 2rem auto;
+        padding: 10px 0;
+        height: 100px;
+    }
+
+    .links a img {
+        margin: 0;
+        border-radius: 50%;
+        width: 90px;
+        height: 90px;
+        position: relative;
+        transition: transform 0.3s ease;
+        transform-origin: center center;
+    }
+
 /* _________________________________________________________________________________sobre Tonys */
 .sobreTonhao {
     padding-top: 2.4%;
@@ -794,7 +844,7 @@ padding-top: 3%;
 
     /*_______________________________________________________________________________rodape*/
     footer{
-    margin-top: 15%;
+    margin-top: 9%;
     display: flex;
     }
 
