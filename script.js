@@ -23,6 +23,7 @@ function nextItem() {
 
 function prevItem() {
     clearTimeout(timeoutId);
+    clearTimeout(timeoutId);
     currentIndex = (currentIndex - 1 + totalItems) % totalItems;
     moveCarousel();
 }
@@ -73,6 +74,17 @@ carousel.addEventListener('touchend', handleTouchEnd, false);
 
 // Inicia o carrossel
 moveCarousel();
+});
+
+// Flip Card functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const cards = document.querySelectorAll('.cardDuro');
+    
+    cards.forEach(card => {
+        card.addEventListener('click', function() {
+            this.classList.toggle('flipped');
+        });
+    });
 });
 
 const button = document.querySelector('.crc');
