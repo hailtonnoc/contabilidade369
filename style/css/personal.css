@@ -165,17 +165,23 @@ ul
 }
 
 /* __________________________________________________________________________________menu */
-.menu
-{
-    display: inline-block;
-    position: relative;
-    z-index: 1;
+.menu {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
-.menuContent
-{
+.menuContent {
     display: none;
-    padding: 0%;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.menuContent.show {
+    display: block;
 }
 
 .menuContent > li
