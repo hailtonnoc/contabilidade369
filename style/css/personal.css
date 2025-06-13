@@ -398,11 +398,15 @@ ul
 .material{
     padding: 3%;
     background-color: #ffffff;
-    width: 90%;
-    left: -30%;
-    margin:2.7%;
+    width: 69%;
+    margin:auto;
     margin-bottom: 6%;
 }
+
+.material > summary{
+    text-align: center;
+}
+
 
 /* _________________________________________________________________________________sobre Tonys */
 .sobreTonhao {
