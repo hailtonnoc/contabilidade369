@@ -87,6 +87,35 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// Efeito de flip automático ao rolar até a seção #servico
+(function() {
+    function isElementInViewportMiddle(el) {
+        const rect = el.getBoundingClientRect();
+        const windowHeight = (window.innerHeight || document.documentElement.clientHeight);
+        // Considera "meio" se o centro do elemento está no centro da tela
+        const elemCenter = rect.top + rect.height / 2;
+        return elemCenter > windowHeight / 2 - 50 && elemCenter < windowHeight / 2 + 50;
+    }
+
+    let flipTriggered = false;
+    function triggerFlipCards() {
+        if (flipTriggered) return;
+        const servico = document.getElementById('servico');
+        if (!servico) return;
+        if (isElementInViewportMiddle(servico)) {
+            flipTriggered = true;
+            const cards = document.querySelectorAll('.cardDuro');
+            cards.forEach((card, idx) => {
+                setTimeout(() => {
+                    card.classList.add('flipped');
+                    setTimeout(() => card.classList.remove('flipped'), 1200); // volta ao normal depois de 1.2s
+                }, idx * 300); // efeito cascata
+            });
+        }
+    }
+    window.addEventListener('scroll', triggerFlipCards);
+})();
+
 const button = document.querySelector('.crc');
 button.addEventListener('click', () => {
 navigator.clipboard.writeText('1SP336879')
