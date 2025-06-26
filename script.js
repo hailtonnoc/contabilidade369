@@ -6,9 +6,15 @@ let currentIndex = 0;
 const delay = 8100; // 9 segundos
 let timeoutId;
 
+// Garante que a largura do carrossel seja proporcional ao número de itens
+carousel.style.width = `${totalItems * 100}%`;
+items.forEach(item => {
+    item.style.width = `${100 / totalItems}%`;
+});
+
 function moveCarousel() {
-    const offset = -currentIndex * 100;
-    carousel.style.transform = `translateX(${offset}vw)`;
+    const offset = -currentIndex * (100 / totalItems);
+    carousel.style.transform = `translateX(${offset}%)`;
     timeoutId = setTimeout(() => {
     currentIndex = (currentIndex + 1) % totalItems;
     moveCarousel();
