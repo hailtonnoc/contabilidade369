@@ -629,7 +629,7 @@ transition: transform 1.2s ease; /* Adiciona transição suave */
 }
 
 .carousel-item {
-height: 22vh;
+height: 32vh;
 display: inline-block;
 justify-content: center;
 align-items: center;
