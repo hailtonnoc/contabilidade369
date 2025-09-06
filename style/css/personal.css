@@ -141,7 +141,7 @@ ul
     position: fixed;
     left: 84%;
     top: 84%;
-    z-index: 1;
+    z-index: 1000;
 }
 
 .fixzap img
@@ -1071,7 +1071,7 @@ padding-top: 0.5%;
         width: 360px;
         padding: 1.5% 0%;
         position:absolute;
-        left: 72%;
+        left: 66.9%;
     }
 
     .menu >span
@@ -1105,7 +1105,7 @@ padding-top: 0.5%;
         position: fixed;
         left: 90%;
         top: 87%;
-        z-index: 100;
+        z-index: 1000;
     }
     
     
